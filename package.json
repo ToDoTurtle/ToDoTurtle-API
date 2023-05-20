@@ -1,0 +1,16 @@
+{
+  "name": "todoturtle-api",
+  "version": "1.0.0",
+  "description": "Notifications API for ToDoTurtle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToDoTurtle",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-gcm": "^1.0.5"
+  }
+}
